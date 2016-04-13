@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuItem1"
+        app:showAsAction="ifRoom"
+        android:title="Menu Item 1"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menuItem2"
+        app:showAsAction="ifRoom"
+        android:title="Menu Item 2"
+        android:visible="true"/>
+</menu>
